@@ -1,3 +1,20 @@
+## Refs
+- [https://github.com/ailius/KernelSU_Action_begonia](https://github.com/ailius/KernelSU_Action_begonia)
+- [https://github.com/begonia-dev/android_kernel_xiaomi_mt6785](https://github.com/begonia-dev/android_kernel_xiaomi_mt6785)
+- [https://github.com/Hydra-Kernels/Hydra_Begonia](https://github.com/Hydra-Kernels/Hydra_Begonia)
+- [https://github.com/Nova-Kernels/kernel_xiaomi_mt6785/commit/4659baa1bfe6030d3029e57a020f46a2262ea388](https://github.com/Nova-Kernels/kernel_xiaomi_mt6785/commit/4659baa1bfe6030d3029e57a020f46a2262ea388)
+
+
+Linux version 4.14.186-g7c18952d3c68 (builder@m1-xm-ota-bd086.bj.idc.xiaomi.com) (Android (6443078 based on r383902) clang version 11.0.1 (https://android.googlesource.com/toolchain/llvm-project b397f81060ce6d701042b782172ed13bee898b79), LLD 11.0.1 (/buildbot/tmp/tmp6_m7QH b397f81060ce6d701042b782172ed13bee898b79)) #1 SMP PREEMPT Thu Jun 2 19:52:17 CST 2022
+
+
+kernel="out/arch/arm64/boot/Image.gz-dtb"
+
+./magiskboot unpack boot.img 
+mv -f Image kernel
+./magiskboot repack boot.img 
+
+
 Linux kernel
 ============
 
